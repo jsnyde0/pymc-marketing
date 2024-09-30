@@ -444,7 +444,7 @@ class MMMModelBuilder(ModelBuilder):
 
         if add_mean:
             ax = self._add_mean_to_plot(
-                ax=ax, original_scale=original_scale, color="red"
+                ax=ax, original_scale=original_scale, color="blue"
             )
 
         if add_gradient:
